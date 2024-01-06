@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/gradient_background"
+    android:id="@+id/activity_register">
+
+    <TextView
+        android:id="@+id/tv_register_autentificare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/autentificare"
+        android:textColor="@color/altmida"
+        android:textSize="25sp"
+        android:fontFamily="@font/genghis"
+        android:textAllCaps="true"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.19" />
+
+    <TextView
+        android:id="@+id/tv_creare_cont_nou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/creati_un_cont_nou"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:fontFamily="@font/genghis"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_register_autentificare"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/et_nume"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+
+        android:background="@color/mida"
+
+        android:ems="10"
+        android:hint="@string/nume"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_creare_cont_nou"
+        app:layout_constraintVertical_bias="0.23"
+        android:autofillHints="@string/nume" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+
+        android:background="@color/mida"
+
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nume"
+        app:layout_constraintVertical_bias="0.23"
+        android:autofillHints="@string/email" />
+
+    <EditText
+        android:id="@+id/et_parola"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+
+        android:background="@color/mida"
+
+        android:ems="10"
+        android:hint="@string/parola"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_email"
+        app:layout_constraintVertical_bias="0.23"
+        android:autofillHints="@string/parola" />
+
+    <EditText
+        android:id="@+id/et_telefon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+
+        android:background="@color/mida"
+
+        android:ems="10"
+        android:hint="@string/numar_de_telefon"
+        android:inputType="phone"
+        android:textColorHint="@color/white"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_parola"
+        app:layout_constraintVertical_bias="0.23"
+        android:autofillHints="@string/numar_de_telefon" />
+
+    <Button
+        android:id="@+id/btn_inregistrare"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/inregistrati_va"
+        android:textSize="15sp"
+        android:fontFamily="@font/genghis"
+        android:textColor="#56416b"
+        android:textStyle="bold"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_telefon"/>
+
+    <TextView
+        android:id="@+id/tv_conectare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/deja_inregistrat_conectati_va_aici"
+        android:textColor="#bab6bf"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_inregistrare"
+        android:textStyle="italic"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <ProgressBar
+        android:id="@+id/pb_conectare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_conectare"
+        android:visibility="invisible"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

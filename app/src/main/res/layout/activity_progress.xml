@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgprogress"
+    tools:context=".ProgressActivity">
+
+        <Button
+        android:id="@+id/progress_btn_revenire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#83266EB6"
+            android:fontFamily="@font/genghis"
+            android:text="@string/revino_in_meniul_principal"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="120dp"
+            android:drawableLeft="@drawable/inapoi9"/>
+
+        <TextView
+            android:id="@+id/progress_tv_rezultat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/progress_tv_felicitari"
+            android:layout_marginTop="10dp"
+            android:text="@string/rezultat"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:fontFamily="@font/genghis"
+            />
+
+
+        <ImageView
+            android:id="@+id/progress_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/progress_tv_rezultat"
+            android:contentDescription="@string/trophy"
+            android:src="@drawable/trophy5"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/progress_tv_felicitari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/progress_btn_revenire"
+            android:layout_marginTop="80dp"
+            android:text="@string/felicitari"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:fontFamily="@font/genghis"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/progress_tv_scor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            android:fontFamily="@font/genghis"
+            android:layout_marginStart="60dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

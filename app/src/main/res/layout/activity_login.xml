@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/gradient_background"
+    android:id="@+id/activity_login">
+    <TextView
+        android:id="@+id/tv_login_autentificare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/autentificare"
+        android:textColor="@color/altmida"
+        android:textSize="25sp"
+        android:fontFamily="@font/genghis"
+        android:textAllCaps="true"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.19" />
+
+    <TextView
+        android:id="@+id/tv_creare_cont_nou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/conectare_la_un_cont_existent"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:fontFamily="@font/genghis"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_login_autentificare"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/et_login_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+
+        android:background="@color/mida"
+
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_creare_cont_nou"
+        app:layout_constraintVertical_bias="0.23"
+        android:autofillHints="@string/email" />
+
+    <EditText
+        android:id="@+id/et_login_parola"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+
+        android:background="@color/mida"
+
+        android:ems="10"
+        android:hint="@string/parola"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_login_email"
+        app:layout_constraintVertical_bias="0.23"
+        android:autofillHints="@string/parola" />
+
+    <CheckBox
+        android:id="@+id/cb_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/retine_contul"
+        android:textColor="@color/white"
+
+        app:layout_constraintTop_toBottomOf="@+id/et_login_parola"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_login_conectare"
+        android:layout_marginEnd="30dp"
+        android:textAllCaps="true"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:id="@+id/btn_login_conectare"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/conectare"
+        android:textSize="15sp"
+        android:fontFamily="@font/genghis"
+        android:textColor="#56416b"
+        android:textStyle="bold"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_login_parola"/>
+    <TextView
+        android:id="@+id/tv_login_inregistrare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/nu_aveti_cont_inregistrati_va"
+        android:textColor="#bab6bf"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login_conectare"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/tv_login_resetare_parola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/ati_uitat_parola_o_puteti_reseta_aici"
+        android:textColor="#bfabd6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_login_inregistrare"
+        android:textStyle="italic"/>
+
+    <ProgressBar
+        android:id="@+id/pb_login_inregistrare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_login_resetare_parola"
+        android:visibility="invisible"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

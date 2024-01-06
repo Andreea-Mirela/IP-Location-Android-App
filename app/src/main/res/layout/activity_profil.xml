@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilActivity"
+    android:background="@drawable/meniudate">
+
+    <TextView
+        android:id="@+id/tv_email_verificat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/email_ul_nu_este_verificat"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:textAllCaps="true"
+        android:fontFamily="@font/genghis"
+
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_verifica_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/verificati_acum"
+        android:fontFamily="@font/genghis"
+        android:drawableEnd="@drawable/ic_baseline_check_24"
+        android:backgroundTint="@color/white"
+
+        android:layout_marginBottom="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_email_verificat"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/tv_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/profilul_tau"
+        android:textAllCaps="true"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/genghis"
+        android:textColor="#0091EA"
+
+        android:layout_marginTop="70dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_verifica_mail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+         />
+
+    <ImageView
+        android:id="@+id/iv_profil"
+        android:layout_width="135dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="60dp"
+        android:contentDescription="@string/imagine_profil"
+        android:src="@drawable/profil"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_profil"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/tv_profil_nume"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toEndOf="@+id/iv_profil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_profil"
+        android:layout_marginTop="140dp"
+
+        android:textStyle="bold"
+        android:text="@string/numele_dvs"
+
+        style="@style/WhiteText"/>
+
+    <TextView
+        android:id="@+id/tv_profil_mail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toEndOf="@+id/iv_profil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_profil_nume"
+        android:layout_marginTop="8dp"
+
+        android:text="@string/email_ul_dvs"
+
+        style="@style/WhiteText"/>
+
+    <TextView
+        android:id="@+id/tv_profil_telefon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toEndOf="@+id/iv_profil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_profil_mail"
+        android:layout_marginTop="8dp"
+
+        android:text="@string/numar_de_telefon"
+
+        style="@style/WhiteText"/>
+
+    <Button
+        android:id="@+id/btn_meniu_principal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/intrati_in_meniul_principal"
+        android:fontFamily="@font/genghis"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+
+        android:layout_marginBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn_deconectare"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/white"
+        android:textColor="#534545"
+        style="?attr/materialButtonOutlinedStyle"
+        android:drawableEnd="@drawable/door2"
+        android:onClick="deconectare"
+        />
+
+    <Button
+        android:id="@+id/btn_deconectare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/deconectare"
+        android:fontFamily="@font/genghis"
+
+        android:layout_marginBottom="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:backgroundTint="@color/white"
+        android:onClick="deconectare"
+        style="?attr/materialButtonOutlinedStyle"
+        />
+
+    <ImageView
+        android:id="@+id/iv_dreptunghi"
+        android:layout_width="337dp"
+        android:layout_height="181dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="60dp"
+        android:contentDescription="@string/cadru"
+        android:src="@drawable/dreptunghi2"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_profil"
+        app:tint="@color/white" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,290 @@
+<resources>
+    <string name="app_name">ProiectAndroidDAMI</string>
+    <string name="autentificare">Autentificare</string>
+    <string name="creati_un_cont_nou">Creati un cont nou</string>
+    <string name="nume">Nume si prenume</string>
+    <string name="email">Email</string>
+    <string name="parola">Parola</string>
+    <string name="confirma_parola">Confirmati parola</string>
+    <string name="inregistrati_va">Inregistrare</string>
+    <string name="deja_inregistrat_conectati_va_aici">Deja inregistrat? Conectati-va aici!</string>
+    <string name="nu_aveti_cont_inregistrati_va">Nu aveti cont? Inregistrati-va!</string>
+    <string name="validare_nume">Numele trebuie sa contina minim 6 caractere</string>
+    <string name="validare_email">Adresa e-mail trebuia sa contina minim 6 caractere</string>
+    <string name="validare_parola">Parola trebuie sa contina minim 6 caractere</string>
+    <string name="validare_telefon">Numarul de telefon nu a fost completat</string>
+    <string name="utilizator_creat">Utilizator creat (Firebase)</string>
+    <string name="eroare">Eroare! </string>
+    <string name="bine_ai_venit">Bine ai venit!</string>
+    <string name="deconectare">Deconectare</string>
+    <string name="conectare">Conectare</string>
+    <string name="conectare_cu_succes">Conectarea a avut loc cu succes!</string>
+    <string name="conectare_la_un_cont_existent">Conectare la un cont existent</string>
+    <string name="log_onsucces">\"onSuccess: Profilul a fost creat cu succes pt urilizatorul cu id-ul \"</string>
+    <string name="onFailure">onFailure:</string>
+    <string name="ati_uitat_parola_o_puteti_reseta_aici">Ati uitat parola? O puteti reseta aici</string>
+    <string name="resetare_parola_titlu">Doriti resetarea parolei?</string>
+    <string name="adresa_mail_resetare">Introduceti adresa email pe care sa primiti link-ul de resetare:</string>
+    <string name="link_trimis">Link-ul de resetare a fost trimis la adresa email!</string>
+    <string name="link_resetare_netrimis">Eroare! Link-ul de resetare nu a fost trimis!</string>
+    <string name="profilul_tau">Profilul tau</string>
+    <string name="imagine_profil">Imagine profil</string>
+    <string name="numele_dvs">Numele dvs</string>
+    <string name="email_ul_dvs">Email-ul dvs</string>
+    <string name="numar_de_telefon">Numar de telefon</string>
+    <string name="link_verificare_trimis">Link-ul de verificare a fost trimis</string>
+    <string name="link_verificare_netrimis">onFailure: Link-ul nu a fost trimis</string>
+    <string name="email_ul_nu_este_verificat">Email-ul nu este verificat</string>
+    <string name="verificati_acum">Verificati acum</string>
+
+
+    <string name="acasa">MENIU</string>
+    <string name="contact">Contact</string>
+    <string name="testeaza_ti_cunostintele">Testeaza-ti cunostintele!</string>
+    <string name="informatii_despre">Informatii despre...</string>
+    <string name="preia_din_bd">Preia din BD</string>
+    <string name="clasament">Clasament</string>
+    <string name="introduceti_ip_ul">Introduceti IP-ul...</string>
+    <string name="preia_din_json">Preia din JSON</string>
+    <string name="afiseaza_rezultat">Afiseaza rezultat</string>
+    <string name="bine_ati_venit">Bine ati venit</string>
+    <string name="incarcare_nereusita">Incarcare nereusita</string>
+    <string name="intrati_in_meniul_principal">Intrati in meniul principal</string>
+
+
+    <string name="adresa_ip_cautata">Adresa IP cautata</string>
+    <string name="tara_in_care_va_aflati">Tara: </string>
+    <string name="conform_adresei"> ,conform adresei IP.</string>
+    <string name="ati_fost_localizat">Ati fost localizat!</string>
+    <string name="continuati">Continuati</string>
+    <string name="oras">\nOras:</string>
+
+
+    <string name="imagine_continent">Imagine continent</string>
+    <string name="_0_10">0/10</string>
+    <string name="trimite">Trimite</string>
+    <string name="rezultat">Rezultat</string>
+    <string name="felicitari">Felicitari!</string>
+    <string name="revino_in_meniul_principal">Revenire la meniul principal</string>
+    <string name="trophy">Trophy</string>
+    <string name="finalizeaza">Finalizeaza</string>
+    <string name="bara">"/ "</string>
+
+    <string name="africa1">Care este capitala statului Burkina Faso?</string>
+    <string name="raspunsAfrica11">Ouagadougou</string>
+    <string name="raspunsAfrica12">Juba</string>
+    <string name="raspunsAfrica13">Banjul</string>
+
+    <string name="africa2">Care este capitala statului Ghana?</string>
+    <string name="raspunsAfrica21">Harare</string>
+    <string name="raspunsAfrica22">Accra</string>
+    <string name="raspunsAfrica23">Gaborone</string>
+
+    <string name="africa3">Care este capitala statului Lesotho?</string>
+    <string name="raspunsAfrica31">Maseru</string>
+    <string name="raspunsAfrica32">Melila</string>
+    <string name="raspunsAfrica33">Freetown</string>
+
+    <string name="africa4">Care este capitala statului Togo?</string>
+    <string name="raspunsAfrica41">Jamestown</string>
+    <string name="raspunsAfrica42">Conakry</string>
+    <string name="raspunsAfrica43">Lome</string>
+
+    <string name="africa5">Care este capitala statului Rwanda?</string>
+    <string name="raspunsAfrica51">Kampala</string>
+    <string name="raspunsAfrica52">Victoria</string>
+    <string name="raspunsAfrica53">Kigali</string>
+
+
+    <string name="europa1">Cum arata steagul Uniunii Europene?</string>
+    <string name="raspunsEuropa11">12 stele aurii pe un fond albastru</string>
+    <string name="raspunsEuropa12">10 stele aurii pe un fond albastru</string>
+    <string name="raspunsEuropa13">15 stele aurii pe un fond albastru</string>
+
+    <string name="europa2">Ziua Europei se sarbatoreste in fiecare an la data de</string>
+    <string name="raspunsEuropa21">18 aprilie</string>
+    <string name="raspunsEuropa22">9 mai</string>
+    <string name="raspunsEuropa23">1 mai</string>
+
+    <string name="europa3">Cate state faceau parte din Uniunea Europeana in 1995?</string>
+    <string name="raspunsEuropa31">15</string>
+    <string name="raspunsEuropa32">12</string>
+    <string name="raspunsEuropa33">25</string>
+
+    <string name="europa4">Austria a devenit membra a Uniunii Europene in anul:</string>
+    <string name="raspunsEuropa41">1973</string>
+    <string name="raspunsEuropa42">1981</string>
+    <string name="raspunsEuropa43">1995</string>
+
+    <string name="europa5">Obiectivul teoriei neofunctionaliste este:</string>
+    <string name="raspunsEuropa51">„Statele Unite ale Europei”</string>
+    <string name="raspunsEuropa52">crearea Comunitatii Economice Europene</string>
+    <string name="raspunsEuropa53">crearea federatiei europene</string>
+
+
+    <string name="americanord1">Care este capitala statului Canada?</string>
+    <string name="raspunsAmericaNord11">Ottawa</string>
+    <string name="raspunsAmericaNord12">San Salvador</string>
+    <string name="raspunsAmericaNord13">Saint George`s</string>
+
+    <string name="americanord2">Care este capitala statului Costa Rica?</string>
+    <string name="raspunsAmericaNord21">Ciudad de Guatemala</string>
+    <string name="raspunsAmericaNord22">San Jose</string>
+    <string name="raspunsAmericaNord23">Port-au-Prince</string>
+
+    <string name="americanord3">Care este capitala statului Cuba?</string>
+    <string name="raspunsAmericaNord31">Havana</string>
+    <string name="raspunsAmericaNord32">Tegucigalpa</string>
+    <string name="raspunsAmericaNord33">Kingston</string>
+
+    <string name="americanord4">Care este capitala statului Dominica?</string>
+    <string name="raspunsAmericaNord41">Managua</string>
+    <string name="raspunsAmericaNord42">Ciudad de Mexico</string>
+    <string name="raspunsAmericaNord43">Roseau</string>
+
+    <string name="americanord5">Care este capitala statului Republica Dominicana?</string>
+    <string name="raspunsAmericaNord51">Castries</string>
+    <string name="raspunsAmericaNord52">Basseterre</string>
+    <string name="raspunsAmericaNord53">Santo Domingo</string>
+
+
+    <string name="americasud1">Care este capitala statului Argentina?</string>
+    <string name="raspunsAmericaSud11">Buenos Aires</string>
+    <string name="raspunsAmericaSud12">Quito</string>
+    <string name="raspunsAmericaSud13">Stanley</string>
+
+    <string name="americasud2">Care este capitala statului Bolivia?</string>
+    <string name="raspunsAmericaSud21">Cayenne</string>
+    <string name="raspunsAmericaSud22">La Paz</string>
+    <string name="raspunsAmericaSud23">Georgetown</string>
+
+    <string name="americasud3">Care este capitala statului Brazilia?</string>
+    <string name="raspunsAmericaSud31">Brasil</string>
+    <string name="raspunsAmericaSud32">Asuncion</string>
+    <string name="raspunsAmericaSud33">Kingston</string>
+
+    <string name="americasud4">Care este capitala statului Chile?</string>
+    <string name="raspunsAmericaSud41">Managua</string>
+    <string name="raspunsAmericaSud42">Asuncion</string>
+    <string name="raspunsAmericaSud43">Santiago de Chile</string>
+
+    <string name="americasud5">Care este capitala statului Columbia?</string>
+    <string name="raspunsAmericaSud51">Lima</string>
+    <string name="raspunsAmericaSud52">Montevideo</string>
+    <string name="raspunsAmericaSud53">Bogota</string>
+
+
+    <string name="asia1">Care este capitala statului Afganistan?</string>
+    <string name="raspunsAsia11">Kabul</string>
+    <string name="raspunsAsia12">Thimphu</string>
+    <string name="raspunsAsia13">Taipei</string>
+
+    <string name="asia2">Care este capitala statului Azerbaidjan?</string>
+    <string name="raspunsAsia21">Bagdad</string>
+    <string name="raspunsAsia22">Baku</string>
+    <string name="raspunsAsia23">Bishkek</string>
+
+    <string name="asia3">Care este capitala statului Liban?</string>
+    <string name="raspunsAsia31">Beirut</string>
+    <string name="raspunsAsia32">Islamabad</string>
+    <string name="raspunsAsia33">Bangkok</string>
+
+    <string name="asia4">Care este capitala statului Taiwan?</string>
+    <string name="raspunsAsia41">Muscat</string>
+    <string name="raspunsAsia42">Kuala Lumpur</string>
+    <string name="raspunsAsia43">Taipei</string>
+
+    <string name="asia5">Care este capitala statului Coreea de Sud?</string>
+    <string name="raspunsAsia51">Tokio</string>
+    <string name="raspunsAsia52">Amman</string>
+    <string name="raspunsAsia53">Seul</string>
+
+
+    <string name="australia1">Care este capitala statului Noua Zeelanda?</string>
+    <string name="raspunsAustralia11">Wellington</string>
+    <string name="raspunsAustralia12">Thimphu</string>
+    <string name="raspunsAustralia13">Palikir</string>
+
+    <string name="australia2">Care este capitala statului Kiribati?</string>
+    <string name="raspunsAustralia21">Pohnpei</string>
+    <string name="raspunsAustralia22">Bairiki</string>
+    <string name="raspunsAustralia23">Bishkek</string>
+
+    <string name="australia3">Care este capitala statului Vanuatu?</string>
+    <string name="raspunsAustralia31">Port Vila</string>
+    <string name="raspunsAustralia32">Islamabad</string>
+    <string name="raspunsAustralia33">Bangkok</string>
+
+    <string name="australia4">Care este capitala statului Tonga?</string>
+    <string name="raspunsAustralia41">Muscat</string>
+    <string name="raspunsAustralia42">Port Moresby</string>
+    <string name="raspunsAustralia43">Nuku‘alofa</string>
+
+    <string name="australia5">Care este capitala statului Samoa?</string>
+    <string name="raspunsAustralia51">Honiara</string>
+    <string name="raspunsAustralia52">Amman</string>
+    <string name="raspunsAustralia53">Apia</string>
+
+
+    <string name="urmatoarea_intrebare">Urmatoarea intrebare</string>
+    <string name="scor">Scorul tau este </string>
+    <string name="din_5"> din 5</string>
+    <string name="adresa_ip">Adresa IP</string>
+    <string name="tara">Tara</string>
+    <string name="cod_tara">Cod tara</string>
+    <string name="oras_information">Oras</string>
+    <string name="regiune">Regiune</string>
+    <string name="moneda">Moneda</string>
+    <string name="salvare_date">Salvare date</string>
+
+
+    <string name="continente_lv">Continente</string>
+    <string name="denumire_continent">Denumire continent</string>
+    <string name="suprafata_continent">Suprafata continent</string>
+    <string name="densitate">Densitate</string>
+    <string name="linie_verticala">Linie verticala</string>
+    <string name="denumire_tara">Denumire tara</string>
+    <string name="suprafata_tara">Suprafata tara</string>
+    <string name="linie_orizontala">Linie orizontala</string>
+    <string name="populatie">Populatie</string>
+    <string name="denumire_oras">Denumire oras</string>
+    <string name="risc_epidemiologic">Risc epidemiologic</string>
+    <string name="cod">COD</string>
+    <string name="oras_json">ORAS</string>
+    <string name="nepreluat">nepreluat</string>
+    <string name="riscepi2">RISC EPIDEMIOLOGIC</string>
+    <string name="cod2">COD</string>
+    <string name="orase_adaugate">ORASE ADAUGATE</string>
+    <string name="adauga_oras">Adauga oras</string>
+    <string name="inapoi_la_meniul_principal">Inapoi la meniul principal</string>
+    <string name="rezultate_continente">REZULTATE - continente</string>
+    <string name="titlul_continente">titlul continente</string>
+    <string name="imagine_continent_main">imagine continent main</string>
+    <string name="titlu_oras_main">titlu oras main</string>
+    <string name="imagine_in_form">Imagine in form</string>
+    <string name="adauga_denumirea_orasului">Adauga denumirea orasului...</string>
+    <string name="adauga_risc_epidemiologic">Adauga risc epidemiologic...</string>
+    <string name="adauga_codul">Adauga codul...</string>
+    <string name="cadru">cadru</string>
+    <string name="retine_contul">Retine contul</string>
+    <string name="conectare_reusita">Conectare la baza de date reusita!</string>
+    <string name="adauga_denumirea_tarii">Adauga denumirea tarii</string>
+    <string name="adauga_populatia_tarii">Adauga populatia tarii</string>
+    <string name="adauga_suprafata_tarii">Adauga suprafata tarii</string>
+    <string name="adauga_tara">Adauga tara</string>
+    <string name="denumire_tara_invalida">Denumirea tarii trebuie sa contina cel putin 3 caractere!</string>
+    <string name="suprafata_tara_invalida">Suprafata tarii trebuie sa contina cel putin 3 caractere!</string>
+    <string name="populatie_tara_invalida">Populatia tarii trebuie sa contina cel putin 3 caractere!</string>
+    <string name="tari_baza_de_date">TARI - Baza de Date</string>
+    <string name="tari_raport_1">TARI - Raport 1</string>
+    <string name="tari_raport_2">TARI - Raport 2</string>
+    <string name="adrese_ip">Adrese IP</string>
+    <string name="adauga_o_adresa_ip">Adauga o adresa IP</string>
+    <string name="adrese_ip_baza_de_date">Adrese IP - Baza de Date</string>
+    <string name="adauga_adresa_ip">Adauga Adresa IP</string>
+    <string name="adresa_invalida">Adresa IP trebuie sa contina minim 3 caractere</string>
+    <string name="oras_adresa_invalid">Orasul corespunzator adresei IP trebuie sa contina minim 3 caractere</string>
+    <string name="in_dezvoltare">In dezvoltare...</string>
+    <string name="dami_ip">DaMi IP</string>
+
+</resources>

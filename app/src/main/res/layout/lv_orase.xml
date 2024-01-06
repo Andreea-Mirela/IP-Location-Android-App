@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradientjson">
+
+<!--AICI SE AFISEAZA ORASELE CARE VOR FI ADAUGATE-->
+
+    <ImageView
+        android:id="@+id/iv_row_oras"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+
+        android:contentDescription="@string/oras_json"
+        android:src="@drawable/oras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@color/white"
+        />
+
+      <TextView
+        android:id="@+id/tv_row_denumire_oras2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+
+        android:fontFamily="@font/genghis"
+        android:text="@string/oras_json"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+          android:textSize="20sp"
+
+        app:layout_constraintTop_toBottomOf="@id/iv_row_oras"
+        app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_row_risc_epidemiologic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+
+        android:fontFamily="@font/genghis"
+        android:text="@string/riscepi2"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_row_denumire_oras2" />
+
+    <TextView
+        android:id="@+id/tv_cod2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+
+        android:fontFamily="@font/genghis"
+        android:text="@string/cod2"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_row_risc_epidemiologic2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "317961045632",
+    "project_id": "autentificare-26e1b",
+    "storage_bucket": "autentificare-26e1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317961045632:android:2e5e2455aa8df78dab0865",
+        "android_client_info": {
+          "package_name": "com.example.proiectandroiddami"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317961045632-3rpsv1gsk1i37cb7701aoboomvkuaadj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD4dwmvH3GqZgRlOBjxZGNX97ri0Vknag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317961045632-3rpsv1gsk1i37cb7701aoboomvkuaadj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

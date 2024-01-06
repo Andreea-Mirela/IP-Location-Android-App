@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proiectandroiddami">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/dami_ip"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FinalActivity"></activity>
+        <activity android:name=".AdaugaAdresaIpActivity" />
+        <activity android:name=".DatabaseIpAddressActivity" />
+        <activity android:name=".AdaugaTaraActivity" />
+        <activity android:name=".DatabaseActivity" />
+        <activity android:name=".activitatiJson.FormActivity" />
+        <activity android:name=".activitatiJson.ListaRezultateActivity" />
+        <activity android:name=".activitatiJson.ListaOraseActivity" />
+        <activity android:name=".InformationActivity" />
+        <activity android:name=".activitatiJson.JsonActivity" />
+        <activity android:name=".ProgressActivity" />
+        <activity android:name=".QuizzActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ProfilActivity" />
+        <activity android:name=".RegisterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

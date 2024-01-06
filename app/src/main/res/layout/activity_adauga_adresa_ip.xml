@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdaugaAdresaIpActivity"
+    android:background="@drawable/ip">
+
+    <TextView
+        android:id="@+id/tv_form_adrese_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:background="#400977"
+
+        android:text="@string/adauga_o_adresa_ip"
+        android:fontFamily="@font/genghis"
+
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:shadowColor="@color/purple_500"
+
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/till_database_adresa_ip"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@+id/tv_form_adrese_ip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet1_database_adresa_ip"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/adauga_denumirea_tarii"
+            android:fontFamily="@font/genghis"
+            android:textStyle="italic"
+            android:textColorHint="@color/black"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/till_database_oras_adresa_ip"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/till_database_adresa_ip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tiet2_database_oras_adresa_ip"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/adauga_suprafata_tarii"
+        android:fontFamily="@font/genghis"
+        android:textStyle="italic"
+        android:textColorHint="@color/black"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_database_adauga_adresa_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="200dp"
+
+        android:text="@string/adauga_adresa_ip"
+        android:fontFamily="@font/genghis"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:backgroundTint="#0277BD"
+        android:drawableEnd="@drawable/add_vector"
+
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

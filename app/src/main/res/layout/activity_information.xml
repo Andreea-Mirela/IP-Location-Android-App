@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationActivity"
+    android:background="@drawable/ip">
+
+
+    <TextView
+        android:id="@+id/tv_information_text_ip_address"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+
+        android:text="@string/adresa_ip"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/genghis"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:background="@color/black"
+        android:padding="2dp"
+
+        android:layout_marginTop="25dp"
+        android:drawableLeft="@drawable/find"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tv_information_text_country"
+        app:layout_constraintTop_toBottomOf="@id/tv_information_text_ip_address"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/continentemain"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/tv_information_ip_address"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_information_text_ip_address"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+
+        android:background="@color/white"
+
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/genghis"
+        android:textColor="#2B2727"
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_information_text_country"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_information_ip_address"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAllCaps="true"
+        android:padding="2dp"
+
+        android:text="@string/tara"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/genghis"
+        android:textColor="@color/white"
+        android:background="@color/black"
+
+        android:layout_marginTop="120dp"
+        android:drawableLeft="@drawable/pin"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_information_country"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_information_text_country"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+
+        android:background="@color/white"
+
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/genghis"
+        android:textColor="#2B2727"
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_information_text_country_code"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_information_country"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_margin="16dp"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:padding="2dp"
+
+        android:text="@string/cod_tara"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/genghis"
+        android:background="@color/black"
+        android:drawableLeft="@drawable/barchart"
+        />
+
+    <TextView
+        android:id="@+id/tv_information_country_code"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_information_text_country_code"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+
+        android:background="@color/white"
+
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/genghis"
+        android:textColor="#2B2727"
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_information_text_city"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_information_country_code"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:padding="2dp"
+
+        android:text="@string/oras_information"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/genghis"
+        android:background="@color/black"
+        android:drawableLeft="@drawable/oraselul"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_information_city"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_information_text_city"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+
+        android:background="@color/white"
+
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/genghis"
+        android:textColor="#2B2727"
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_information_text_region"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_information_city"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:padding="2dp"
+
+        android:textAllCaps="true"
+        android:text="@string/regiune"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/genghis"
+        android:background="@color/black"
+        android:drawableLeft="@drawable/region"
+        />
+
+    <TextView
+    android:id="@+id/tv_information_region"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/tv_information_text_region"
+
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+
+    android:background="@color/white"
+
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/genghis"
+        android:textColor="#2B2727"
+        android:padding="2dp"
+    />
+
+    <TextView
+        android:id="@+id/tv_information_text_currency"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_information_region"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="2dp"
+
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:text="@string/moneda"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/genghis"
+        android:background="@color/black"
+        android:drawableLeft="@drawable/money"
+        />
+
+    <TextView
+        android:id="@+id/tv_information_currency"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_information_text_currency"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+
+        android:background="@color/white"
+
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/genghis"
+        android:textColor="#2B2727"
+        android:padding="2dp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

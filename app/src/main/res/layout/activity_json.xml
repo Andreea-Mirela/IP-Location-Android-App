@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitatiJson.JsonActivity"
+    android:background="@drawable/gradientjson"
+    >
+    <ImageView
+        android:id="@+id/continente_titlu_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/continentescris"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/titlul_continente" />
+
+
+    <ImageView
+        android:id="@+id/continente_main_imagine"
+        android:layout_width="460dp"
+        android:layout_height="314dp"
+
+        android:contentDescription="@string/imagine_continent_main"
+        android:src="@drawable/continentemain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/continente_titlu_main"
+        app:tint="@color/white" />
+
+    <ImageView
+        android:id="@+id/orase_titlu_main"
+        android:layout_width="662dp"
+        android:layout_height="232dp"
+
+        android:contentDescription="@string/titlu_oras_main"
+        android:src="@drawable/citymain2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/continente_main_imagine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:tint="@color/white" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
